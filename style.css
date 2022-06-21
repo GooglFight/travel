@@ -16,6 +16,7 @@ width: 1440px;
     padding-top: 31px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .nav-item{
   color: #fff;
@@ -26,5 +27,36 @@ width: 1440px;
 
 }
 .button{
-    color: #0D606F;
+    color:#fff;
+    background-color: #0D606F;
+    text-decoration: none;
+    width: 103px;
+    height: 41px;
+    padding: 10px 30px;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+.header-logo2{
+    width: 30px;
+    height: 30px;
+
+}
+.header-tital{
+    font-family: 'Aleo', serif;
+   
+}
+.header-tital-h1{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Aleo';
+    font-style: normal;
+    color: #fff;
+}
+.header-tital-h2{
+    font-family: 'Aleo';
+    font-style: italic;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
 }

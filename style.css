@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Red Hat Text', sans-serif;
     
+    
 }
 .container{
     
@@ -13,7 +14,8 @@ height: 765px;
 width: 1440px;
 }
 .header-line{
-    padding-top: 31px;
+    padding-top: 35px;
+    padding-bottom: 34px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -74,12 +76,13 @@ width: 1440px;
 .rectangle{
     /* Rectangle 8 */
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: absolute;
     width: 898px;
     height: 95px;
-    left: 120px;
     margin-top: 46px;
-    margin-bottom: 34px;
+    padding-right: 18px;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.7);
 }
@@ -102,9 +105,69 @@ width: 1440px;
     size: 24px;
     padding: 10px 32px;
     border-radius: 10px;
+}
+.step{
+   
+
+}
+.step_tital{
+    width: 1177px;
+    height: 247px;
+
+}
+.step_logo{
+    font-family: 'Red Hat Text', sans-serif;
+    color: #F2785C;
+    font-weight: 500;
+    font-size: 40px;
+    position: relative;
+    width: 611px;
+    height: 53px;
+    margin-left: 415px;
+    margin-right: 414px;
+    margin-top: 80px;
+
+}
+.frame{
+    width: 1177px;
+    height: 154px;
+    display: flex;
+    justify-content: center
     
+}
+.frame_btn1{
+    width: 100px;
+    height: 100px;
+    background-color:#F2785C;
+    border-radius: 16px;
 
-
+}
+.frame_img1{
+    width: 50px;
+    height: 45px;
+    margin: 28px 25px;
+}
+.frame_btn2{
+    width: 100px;
+    height: 100px;
+    background-color:#F2785C;
+    border-radius: 16px;
+}
+.frame_img2{
+     width: 50px;
+     height: 45px;
+     margin: 28px 25px;
+}
+.frame_btn3{
+    width: 100px;
+    height: 100px;
+    background-color:#F2785C;
+    border-radius: 16px;
+}
+.frame_img3{
+    width: 50px;
+    height: 45px;
+    margin: 28px 25px;
 }
 
    

@@ -4,7 +4,7 @@ body{
     
 }
 .container{
-    margin: 34px 150px;
+    
     
 }
 .header{
@@ -17,6 +17,11 @@ width: 1440px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: #F2785CB2;
+    font-weight: 1440px;
+    opacity: 0.7;
+    
+
 }
 .nav-item{
   color: #fff;
@@ -24,6 +29,7 @@ width: 1440px;
   font-weight: 500;
   font-size: 16px;
   margin-right: 42px;
+  
 
 }
 .button{
@@ -35,6 +41,7 @@ width: 1440px;
     padding: 10px 30px;
     font-weight: 500;
     border-radius: 10px;
+    
 
 }
 .header-logo2{
@@ -44,6 +51,10 @@ width: 1440px;
 }
 .header-tital{
     font-family: 'Aleo', serif;
+    margin-left: 120px;
+    margin-top: 120px;
+    width: 892px;
+    height: 422px;
    
 }
 .header-tital-h1{
@@ -60,3 +71,43 @@ width: 1440px;
     font-weight: 700;
     font-size: 20px;
 }
+.rectangle{
+    /* Rectangle 8 */
+    display: flex;
+    position: absolute;
+    width: 898px;
+    height: 95px;
+    left: 120px;
+    margin-top: 46px;
+    margin-bottom: 34px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.7);
+}
+.rectangle-text{
+    font-family: 'Aleo';
+    font-style: italic;
+    color: #F2785C;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 41px;
+    margin-left: 41px;
+}
+.rectangle-button{
+    color: #fff;
+    text-decoration: none;
+    background-color: #0D606F;
+    width: 228px;
+    height: 59px;
+    size: 24px;
+    padding: 10px 32px;
+    border-radius: 10px;
+    
+
+
+}
+
+   
+
+
+
